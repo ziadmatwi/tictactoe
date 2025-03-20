@@ -1,0 +1,41 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "section section"
+    "article aside";
+    margin:15pt;
+}
+
+header{
+    grid-area: header;
+}
+
+section{
+    grid-area:section;
+}
+
+article{
+    grid-area:article;
+    
+}
+
+.jatekter{
+    display: grid;                       /* establish flex container */
+    grid-template-columns: repeat(3, 60px);
+    grid-template-rows: repeat(3, 60px);
+}
+
+
+
+aside{
+    grid-area:aside;
+}
+
+.elem{
+    width: 50px;
+    height: 50px;
+    border: 1pt solid black;
+    
+}
