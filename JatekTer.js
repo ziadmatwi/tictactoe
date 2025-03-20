@@ -111,7 +111,7 @@ ellenoriz2(eredmeny){
             }
             if((index+j)>8 && index != 8){
 
-                index = (index+j) % 8;
+                index = ((index+j) % 8)-j;
                 
                 
             }
